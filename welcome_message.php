@@ -101,9 +101,9 @@ defined('BASEPATH') or exit('No direct script access allowed');
 										<?= form_error('jenis', '<small class="text-danger" style="padding-left:12px;">', '</small>'); ?>
 									</div>
 									<div class="form-group col-md-6">
-										<label for="jenis" class="pl-12"><strong>Jenis</strong></label>
+										<label for="image" class="pl-12"><strong>image</strong></label>
 										<input type="file" class="form-control" name="image" id="image">
-										<?= form_error('jenis', '<small class="text-danger" style="padding-left:12px;">', '</small>'); ?>
+										<?= form_error('image', '<small class="text-danger" style="padding-left:12px;">', '</small>'); ?>
 									</div>
 								</div>
 
